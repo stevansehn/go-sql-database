@@ -8,7 +8,6 @@ A Go program that connects to a MySQL database, performs CRUD operations on a `u
 - Inserts new users with a username and password.
 - Retrieves the last inserted user and the total count of users.
 - Displays user information in a structured format.
-- Ensures secure password handling (consider hashing in future updates).
 
 ## Prerequisites
 
