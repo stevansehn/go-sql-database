@@ -98,8 +98,4 @@ func main() {
         fmt.Printf("User: %d %s %s %s\n", u.ID, u.Username, u.Password, u.CreatedAt)
     }
     checkErr(rows.Err())
-
-    // Optionally delete a user
-    _, err = db.Exec(`DELETE FROM users WHERE id = ?`, 1)
-    checkErr(err)
 }
