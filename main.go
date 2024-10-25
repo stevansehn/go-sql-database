@@ -63,7 +63,7 @@ func main() {
 
     // Insert a new user
     username := "johndoe"
-    password := "secret" // Consider hashing this password
+    password := "secret"
     createdAt := time.Now()
 
     result, err = db.Exec(`INSERT INTO users (username, password, created_at) VALUES (?, ?, ?)`, username, password, createdAt)
